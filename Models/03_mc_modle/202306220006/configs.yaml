@@ -1,0 +1,9 @@
+batch_size: 32
+height: 128
+learning_rate: 0.001
+max_text_length: 5
+model_path: Models/03_mc_modle\202306220006
+train_epochs: 150
+train_workers: 10
+vocab: 0324568971
+width: 128
