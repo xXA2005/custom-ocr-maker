@@ -7,7 +7,7 @@ from mltu.configs import BaseModelConfigs
 class ModelConfigs(BaseModelConfigs):
     def __init__(self):
         super().__init__()
-        self.model_path = os.path.join("Models/03_mc_model", datetime.strftime(datetime.now(), "%Y%m%d%H%M"))
+        self.model_path = os.path.join("Models/04_mc_model", datetime.strftime(datetime.now(), "%Y%m%d%H%M"))
         self.vocab = "0123456789"
         self.height = 128
         self.width = 128
